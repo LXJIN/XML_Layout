@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to IntentReceiver!"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/regist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定监听器" />
+
+    <Button
+        android:id="@+id/unregist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="接触绑定监听器" />
+</LinearLayout>
